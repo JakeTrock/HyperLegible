@@ -6,12 +6,13 @@
  },
  "name": "HyperLegible",
  "description": "Makes all fonts on page use Atkinson font - Created with http://blog.self.li",
- "homepage_url": "",
+ "homepage_url": "https://github.com/JakeTrock/HyperLegible",
  "icons": {
      "16": "icon-16.png",
      "48": "icon-48.png",
      "128": "icon-128.png" },
  "permissions": [
+     "activeTab",
      "tabs",
      "http://*/*",
      "https://*/*"
