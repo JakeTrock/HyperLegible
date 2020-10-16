@@ -5,12 +5,19 @@
  "default_title": "HyperLegible"
  },
  "name": "HyperLegible",
- "description": "Makes all fonts on page use Atkinson font - Created with http://blog.self.li",
+ "description": "Makes all fonts on page use Atkinson font",
  "homepage_url": "https://github.com/JakeTrock/HyperLegible",
  "icons": {
      "16": "icon-16.png",
      "48": "icon-48.png",
-     "128": "icon-128.png" },
+     "128": "icon-128.png" 
+},
+"web_accessible_resources": [
+  "Font/EOT/Atkinson-Hyperlegible-Regular-102.eof",
+  "Font/WOFF/Atkinson-Hyperlegible-Regular-102.woff",
+  "Font/TTF/Atkinson-Hyperlegible-Regular-102.ttf",
+  "Font/SVG/Atkinson-Hyperlegible-Regular-102.svg"
+],
  "permissions": [
      "activeTab",
      "tabs",
