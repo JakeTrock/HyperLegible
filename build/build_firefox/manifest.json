@@ -1,0 +1,32 @@
+{
+ "content_scripts": [
+  {
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["hyper.js"]
+  }
+],
+ "manifest_version": 2,
+ "browser_action": {
+ "default_icon": "icon-128.png",
+ "default_title": "HyperLegible"
+ },
+ "name": "HyperLegible",
+ "description": "Makes all fonts on page use Atkinson font",
+ "homepage_url": "https://github.com/JakeTrock/HyperLegible",
+ "icons": {
+     "16": "icon-16.png",
+     "48": "icon-48.png",
+     "128": "icon-128.png" 
+},
+"web_accessible_resources": [
+  "Font/*",
+  "hyper.js"
+],
+ "permissions": [
+     "activeTab"
+ ],
+ "version": "0.1",
+ "manifest_version": 2
+}
