@@ -1,5 +1,8 @@
 {
- "background": {"scripts": ["background.js"]},
+ "background": {
+ "scripts": ["background.js"]
+ },
+ "manifest_version": 2,
  "browser_action": {
  "default_icon": "icon-128.png",
  "default_title": "HyperLegible"
@@ -16,11 +19,11 @@
   "Font/EOT/Atkinson-Hyperlegible-Regular-102.eof",
   "Font/WOFF/Atkinson-Hyperlegible-Regular-102.woff",
   "Font/TTF/Atkinson-Hyperlegible-Regular-102.ttf",
-  "Font/SVG/Atkinson-Hyperlegible-Regular-102.svg"
+  "Font/SVG/Atkinson-Hyperlegible-Regular-102.svg",
+  "hyper.js"
 ],
  "permissions": [
      "activeTab",
-     "tabs",
      "http://*/*",
      "https://*/*"
  ],
