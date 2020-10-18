@@ -25,9 +25,7 @@
   "hyper.js"
 ],
  "permissions": [
-     "activeTab",
-     "http://*/*",
-     "https://*/*"
+     "activeTab"
  ],
  "version": "0.1",
  "manifest_version": 2
