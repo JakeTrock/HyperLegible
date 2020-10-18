@@ -21,10 +21,7 @@
      "128": "icon-128.png" 
 },
 "web_accessible_resources": [
-  "Font/EOT/Atkinson-Hyperlegible-Regular-102.eof",
-  "Font/WOFF/Atkinson-Hyperlegible-Regular-102.woff",
-  "Font/TTF/Atkinson-Hyperlegible-Regular-102.ttf",
-  "Font/SVG/Atkinson-Hyperlegible-Regular-102.svg",
+  "Font/*",
   "hyper.js"
 ],
  "permissions": [
