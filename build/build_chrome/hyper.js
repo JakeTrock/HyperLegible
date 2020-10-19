@@ -2,8 +2,7 @@ const cg = `@font-face {font-family: 'Atkinson';src: url('${chrome.runtime.getUR
 const ct = 'Atkinson';
 const wl = ["P", "H1", "H2", "H3", "H4", "H5", "H6", "DIV", "BODY", "STRONG", "EM", "BLOCKQUOTE", "PRE", "CODE", "SPAN", "LI", "DD", "DT", "MARK", "INS", "DEL", "SUP", "SUB", "SMALL", "I", "B", "A", "TEXTAREA", "BUTTON"];
 const changeStyle = function (x) {
-    console.log(x);
-    x.filter(n => wl.includes(n.nodeName)).forEach(b => b.style.fontFamily = ct)
+    x.filter(n => wl.includes(n.nodeName)&&!n.getAttribute("aria-hidden")).forEach(b => b.style.fontFamily = ct)
 }
 const changeElems = function (mutationList, observer) {
     mutationList
