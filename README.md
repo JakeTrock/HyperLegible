@@ -1,6 +1,11 @@
 # HyperLegible
 Makes websites legible for the partially-blind
 
+# Install
+  * download the crg/xpi from the build folder in this repository
+  * [firefox store](https://addons.mozilla.org/en-US/firefox/addon/hyperlegible/)
+
+
 The Atkinson font, released by the braille institute was a font created in order to provide those with partial blindness to be able to read text from a computer monitor with less challenge. This is achieved by Atkinson's unique font footprints which make each character distinguishable. 
 If there are any problems with this extension, please feel free to reach me via this tool's github issue tracker.
 
