@@ -1,0 +1,17 @@
+HyperLegible Privacy policy:
+Your site data will be manipulated by our application, however it will NEVER be sent to a remote server or stored by the extension in any way.
+This extension simply exists to alter the font of text on a page, nothing more, nothing less. There are no remote resources in this application,
+all fonts are cached locally and served from local files only. There will never ever be a case where this application will transmit or recieve data
+from a remote server in any way, it is simply impossible given the limited functionality of the code. That said, you are free to check the single source
+file over at https://github.com/JakeTrock/HyperLegible/ if you still possess any doubts. You will see it gets all of the pages body dom nodes, changes
+their internal font styling and appends a reference to a local font on the top in the head element. This extension also ignores any accessibility flagged elements,
+thereby ignoring elements with icon fonts, or any conflicting resources.
+
+In short:
+
+What information do you collect?
+  -We collect no information.
+How do you use the information?
+  -We do not use the information because we do not collect it.
+What information do you share?
+  -We share no information because we collect no information.
