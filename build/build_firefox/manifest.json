@@ -23,8 +23,5 @@
     "Font/*",
     "hyper.js"
   ],
-  "permissions": [
-    "activeTab"
-  ],
   "version": "5.0"
 }

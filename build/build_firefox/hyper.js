@@ -2,7 +2,6 @@ const cg = `@font-face {font-family: 'Atkinson';src: url('${browser.runtime.getU
 const ct = 'Atkinson';
 const wl = ["P", "H1", "H2", "H3", "H4", "H5", "H6", "DIV", "BODY", "STRONG", "EM", "BLOCKQUOTE", "PRE", "CODE", "SPAN", "LI", "DD", "DT", "MARK", "INS", "DEL", "SUP", "SUB", "SMALL", "I", "B", "A", "TEXTAREA", "BUTTON"];
 const changeStyle = function (x) {
-    console.log(x);
     x.filter(n => wl.includes(n.nodeName)&&!n.getAttribute("aria-hidden")).forEach(b => b.style.fontFamily = ct)
 }
 const changeElems = function (mutationList, observer) {
@@ -17,7 +16,6 @@ const observerOptions = {
 }
 const observer = new MutationObserver(changeElems);
 window.onload = function () {
-    console.log("sdfdffsd);
     const targetNode = document.querySelector("body");
     observer.observe(targetNode, observerOptions);
     Array.prototype.slice.call(document.getElementsByTagName("head"))[0].appendChild(document.createElement('style')).innerHTML = cg;
